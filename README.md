@@ -1,4 +1,4 @@
-# Configure AWS CLI for Terraform
+<img width="442" height="24" alt="image" src="https://github.com/user-attachments/assets/10d1a359-973d-4efe-93b0-adc51053c3e6" /><img width="442" height="24" alt="image" src="https://github.com/user-attachments/assets/197aa308-8c9b-48f2-96e2-c9042b99cc25" /># Configure AWS CLI for Terraform
 
 <img width="870" height="149" alt="image" src="https://github.com/user-attachments/assets/57b4b62d-0ed2-4f6c-94be-fbccb069a929" />
 
@@ -41,3 +41,32 @@ You should see a home console page like this one:
      ```bash
      brew install awscli
       ```
+
+## Step 4 : Create an AWS user
+1. In the AWS console search for IAM
+<img width="425" height="86" alt="image" src="https://github.com/user-attachments/assets/502b6922-3653-497d-b059-0137c25754f7" />
+
+2. Click on users in the left menu
+<img width="317" height="240" alt="image" src="https://github.com/user-attachments/assets/6aa7ff0c-3b3f-4f49-9c7b-a683a68507f8" />
+
+3. Click create user in the upper right
+<img width="284" height="124" alt="image" src="https://github.com/user-attachments/assets/fe8daf43-592a-4413-81bb-61aa87afd765" />
+
+4. Enter a user name
+<img width="425" height="104" alt="image" src="https://github.com/user-attachments/assets/f0e7541f-211c-44e3-a05e-19fcbdba3ac2" />
+
+5. Use the default option of add user and group, click next
+<img width="255" height="186" alt="image" src="https://github.com/user-attachments/assets/038f660a-f2ff-4ead-ad6c-061797ed15a1" />
+
+6. Click create user in the lower right
+<img width="327" height="187" alt="image" src="https://github.com/user-attachments/assets/b26b0ecb-4070-41b6-9488-a78b3eeca1be" />
+
+7. After the user is successfully created click on the user name and click create access key
+<img width="425" height="111" alt="image" src="https://github.com/user-attachments/assets/7f639454-ce9e-4079-97f4-bd556b3c025c" />
+
+8. Select the radio button for command line interface (CLI)
+<img width="425" height="327" alt="image" src="https://github.com/user-attachments/assets/7a51f424-a732-49e9-b600-b3f2156a862d" />
+
+9. Enter a tag value if you like and click generate access keys.
+You should be presented with access keys for the user account.
+
