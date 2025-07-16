@@ -16,7 +16,7 @@ You should see a home console page like this one:
 
 <img width="425" height="86" alt="image" src="https://github.com/user-attachments/assets/a061660b-4e7d-43d3-a8ce-99706de42e3d" />
 
-## Step 2: Install Terraform CLI for macOS
+## Step 2: Install Terraform for macOS
 1. Open your Terminal.
 2. If you have Homebrew installed, run the following command:
    ```bash
@@ -24,7 +24,7 @@ You should see a home console page like this one:
    ```
 <img width="425" height="111" alt="image" src="https://github.com/user-attachments/assets/2341808e-e3b0-4303-8f1c-4dcb6ac16731" />
 
-3. Install the Terraform CLI
+3. Install the Terraform
    ```bash
    brew install hashicorp/tap/terraform
    ```
@@ -36,7 +36,7 @@ You should see a home console page like this one:
    ```
    <img width="214" height="50" alt="image" src="https://github.com/user-attachments/assets/2be42334-6fd8-4d05-9cb1-5b3f582878aa" />
 
-## Step 3 : Install AWS cli
+## Step 3 : Install awscli
 1. Install using the brew command
      ```bash
      brew install awscli
@@ -67,6 +67,9 @@ You should see a home console page like this one:
 8. Select the radio button for command line interface (CLI)
 <img width="425" height="327" alt="image" src="https://github.com/user-attachments/assets/7a51f424-a732-49e9-b600-b3f2156a862d" />
 
+9. Enter a tag value if you like and click generate access keys.
+You should be presented with access keys for the user account.
+
 ## Step 5 : Configure awscli to use the access keys
 1. Enter the command
      ```bash
@@ -76,9 +79,8 @@ You should see a home console page like this one:
 3. Enter the AWS Secret Access Key and press enter
 4. Enter the region (shown on your AWS console home, for me it is us-east-2)
 5. For output format do not enter anything and press enter.
-6. That is it! Terraform and AWSCLI are installed and configured for use!
+6. That is it! Terraform and awscli are installed and configured for use!
    
 
-9. Enter a tag value if you like and click generate access keys.
-You should be presented with access keys for the user account.
+
 
