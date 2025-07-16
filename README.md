@@ -35,3 +35,9 @@ You should see a home console page like this one:
    terraform version
    ```
    <img width="214" height="50" alt="image" src="https://github.com/user-attachments/assets/2be42334-6fd8-4d05-9cb1-5b3f582878aa" />
+
+## Step 3 : Install AWS cli
+1. Install using the brew command
+     ```bash
+     brew install awscli
+      ```
