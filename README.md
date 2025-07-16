@@ -23,6 +23,7 @@ You should see a home console page like this one:
    brew tap hashicorp/tap
    ```
 <img width="425" height="111" alt="image" src="https://github.com/user-attachments/assets/2341808e-e3b0-4303-8f1c-4dcb6ac16731" />
+
 3. Install the Terraform CLI
    ```bash
    brew install hashicorp/tap/terraform
