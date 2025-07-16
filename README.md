@@ -79,7 +79,7 @@ You should be presented with access keys for the user account.
 3. Enter the AWS Secret Access Key and press enter
 4. Enter the region (shown on your AWS console home, for me it is us-east-2)
 5. For output format do not enter anything and press enter.
-6. That is it! Terraform and awscli are installed and configured for use!
+6. Done! Terraform and awscli are installed and configured for use!
    
 
 
