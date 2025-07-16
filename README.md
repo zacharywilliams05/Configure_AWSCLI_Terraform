@@ -67,6 +67,18 @@ You should see a home console page like this one:
 8. Select the radio button for command line interface (CLI)
 <img width="425" height="327" alt="image" src="https://github.com/user-attachments/assets/7a51f424-a732-49e9-b600-b3f2156a862d" />
 
+## Step 5 : Configure awscli to use the access keys
+1. Enter the command
+     ```bash
+     aws configure
+      ```
+2. Enter the AWS Access Key ID and press enter
+3. Enter the AWS Secret Access Key and press enter
+4. Enter the region (shown on your AWS console home, for me it is us-east-2)
+5. For output format do not enter anything and press enter.
+6. That is it! Terraform and AWSCLI are installed and configured for use!
+   
+
 9. Enter a tag value if you like and click generate access keys.
 You should be presented with access keys for the user account.
 
