@@ -14,7 +14,7 @@ Our goal is to have a configured AWS CLI ready to accept commands from Terraform
 
 You should see a home console page like this one:
 
-<img width="442" height="24" alt="image" src="https://github.com/user-attachments/assets/eb00d77c-4720-4db8-9a9b-90a6697adf3f" />
+<img width="425" height="86" alt="image" src="https://github.com/user-attachments/assets/a061660b-4e7d-43d3-a8ce-99706de42e3d" />
 
 ## Step 2: Install Terraform CLI for macOS
 1. Open your Terminal.
