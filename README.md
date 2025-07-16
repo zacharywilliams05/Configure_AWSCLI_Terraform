@@ -20,6 +20,6 @@ You should see a home console page like this one:
 1. Open your Terminal.
 2. If you have Homebrew installed, run the following command:
    ```bash
-   brew install terraform
+   brew tap hashicorp/tap
    ```
 
